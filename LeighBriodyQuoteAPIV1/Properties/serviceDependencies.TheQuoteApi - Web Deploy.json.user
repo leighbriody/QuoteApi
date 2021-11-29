@@ -1,0 +1,30 @@
+{
+  "dependencies": {},
+  "parameters": {
+    "TheQuoteApi.subscriptionId": {
+      "Name": "TheQuoteApi.subscriptionId",
+      "Type": "subscription",
+      "Value": "f590cbc0-0c83-483a-909e-aee55968b7f0"
+    },
+    "TheQuoteApi.resourceGroupLocation": {
+      "Name": "TheQuoteApi.resourceGroupLocation",
+      "Type": null,
+      "Value": "centralus"
+    },
+    "TheQuoteApi.resourceName": {
+      "Name": "TheQuoteApi.resourceName",
+      "Type": null,
+      "Value": "TheQuoteApi"
+    },
+    "TheQuoteApi.resourceGroupName": {
+      "Name": "TheQuoteApi.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "TheResourceGroup"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "f590cbc0-0c83-483a-909e-aee55968b7f0"
+    }
+  }
+}

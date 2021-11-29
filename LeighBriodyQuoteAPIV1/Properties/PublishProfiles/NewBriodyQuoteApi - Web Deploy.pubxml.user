@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEkm3R8ttf0mx73Eg0midXgAAAAACAAAAAAAQZgAAAAEAACAAAAD7sJoA7j1HzzKN7/t0acFLlQB1ZXguUXYBNBCddvXfngAAAAAOgAAAAAIAACAAAAAWrYCWc1Lt7el2I6jkUJjD+7QxXOjzUYmNy2eQrKlt1oAAAAC4+MRTvcNb9ysVpb/ML2CBZr2GYeOaVQhqVijkk6+dCzHiQ8+iCfBUdZo4Gv79mwf9XVvjoKOuoIPSs+qpRtO5xPRpURqSP5razfqdDxASfWXIfh/kThB7Jg5Zelhz2zmQ4BrRP7BIxscGQrCONxCbcojvg4/FkPOEjZ5xr5i9kkAAAACqvWHVpPlsmFLAjFlFnO0VOcAbanp6HKlqvrRoysZGr+r7wnUvw9aqHgnem/VCnwRmTxViqWUygQTpFITFTM4p</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=quotes.db</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="LeighBriodyQuoteAPIV1.Model.QuoteContext">
+      <Value>Data Source=quotes.db</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

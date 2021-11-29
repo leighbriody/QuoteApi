@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEkm3R8ttf0mx73Eg0midXgAAAAACAAAAAAAQZgAAAAEAACAAAADFd+HwjxVwBaMG5nxBTyaJDDg5UuTbEIOeTGjvcvwQugAAAAAOgAAAAAIAACAAAAD7HDCMf2LKaeYU88HTP6yi+iFkZeEw5WWdzf1JaWpN3YAAAAC6T96mGhYIMf8AcBnL8k70xAPpJqn5/6Kp/F/wu6MyO5nu8VVVfPyqU8dUY9Enxjn9Ezx79QZ0egOgownNVvhKTewWM6FHRzaWjnUAKDuojQ/F7hrXxTkawuTk+YaANntRNHN8RM8+EzazkEs4j9Yku+2Kc1+z/A/fNp2UcLhejkAAAAASZlfzSmaFNV3dYl/brbX2GDhjzXAXQWmDbigfbjCcO6PeIFUtyUYvWs99UjK502C81vkDG94xPeNUaVs1saT0</EncryptedPassword>
+    <History>True|2021-11-22T22:52:25.8971309Z;False|2021-11-22T14:51:40.9963241-08:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=quotes.db</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

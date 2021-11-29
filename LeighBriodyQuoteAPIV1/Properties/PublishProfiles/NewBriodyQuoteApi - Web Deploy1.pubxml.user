@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEkm3R8ttf0mx73Eg0midXgAAAAACAAAAAAAQZgAAAAEAACAAAACwIzdyPh1Tw8LyTbwQygfXZ3A1HiJ4meCa8+i6yJtYIwAAAAAOgAAAAAIAACAAAACvJdTorwon6fzPD3ZQw36b+6IIxiFCWsZBOuORkoT8PoAAAAC27UgcLXwmUp+qRw2Hn2lq1rlLmUvTPVRPYpjog3J+80zqrvYq/vqlcxAXH4EOLk1z+8hsnfjMB2hUTccyWSpQMkUc9/xIXtuyL4RxOedjGHDLFdpkXh7fOxfYA7DT7NypIMBYFJOdXRrCMItDhvCPpxf33Obz09sHQPTiTxV75kAAAADYGEhBMA8U69G1IPA3vR6b6eBW+hACfL6QRyzI2XFs7p2XYq1ZxvzkaXpk9xaeyB9hSv2MoQRixmD9TV9vvEwM</EncryptedPassword>
+    <History>False|2021-11-22T21:53:29.1654727Z;True|2021-11-22T13:52:45.9765254-08:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="LeighBriodyQuoteAPIV1.Model.QuoteContext">
+      <Value>Data Source=quotes.db</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
