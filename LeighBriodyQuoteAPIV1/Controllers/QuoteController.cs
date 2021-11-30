@@ -17,6 +17,7 @@ namespace LeighBriodyQuoteAPIV1.Controllers
     [Route("api/[controller]")]
     [ApiController]
 
+    [EnableCors(origins: "*", headers:"*" , methods:"*" )]
     public class QuoteController : ControllerBase
     {
 

@@ -22,8 +22,9 @@ namespace LeighBriodyQuoteAPIV1
 {
     public class Startup
     {
+        string  MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
-       // private IWebHostEnvironment envri;
+        // private IWebHostEnvironment envri;
 
         public Startup(IConfiguration configuration , IWebHostEnvironment env)
         {
@@ -44,11 +45,23 @@ namespace LeighBriodyQuoteAPIV1
             services.AddScoped<IQuoteTypeRepository, QuoteTypeRepository>();
             services.AddScoped<IQuoteRepository, QuoteRepository>();
 
-            services.AddCors(options => options.AddDefaultPolicy(
-             builder => builder.AllowAnyOrigin()  
-             ));
+            //services.AddCors(options => options.AddDefaultPolicy(
+            // builder => builder.AllowAnyOrigin()  
+            // ));
 
-            
+            services.AddCors(options =>
+    {
+        options.AddPolicy(name: MyAllowSpecificOrigins,
+                          builder =>
+                          {
+                              builder
+                                  .AllowAnyOrigin()
+                                  .AllowAnyHeader()
+                                  .AllowAnyMethod()
+                                  //.AllowCredentials()
+                                  ;
+                          });
+    });
 
 
             //We need to add the quote context 
@@ -90,8 +103,8 @@ namespace LeighBriodyQuoteAPIV1
             app.UseRouting();
 
             //middlewear
-            app.UseCors();
-
+            //  app.UseCors();
+            app.UseCors(MyAllowSpecificOrigins);
 
             app.UseAuthorization();
 
